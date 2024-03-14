@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="shortcut icon" href="img/sts1.jpeg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="sts.js"></script>
+  </head>
+  <body>
+    <form>
+      <div>
+        <div><label>e-mail de login</label></div>
+        <input
+          type="email"
+          placeholder="seu Email digite aqui"
+          id="email"
+          onchange="validaEmailSenha()"/>
+      </div>
+      <div>
+        <div>senha</div>
+        <input
+          type="password"
+          name="senha"
+          placeholder="sua Senha digite aqui"
+          id="senha"
+          onchange="validaEmailSenha()"
+        />
+      </div>
+      <div>
+        <button type="button" id="esqeceuSenha" disabled>esqueceu a senha</button>
+      </div>
+      <div><button type="button" id="entrar">entrar</button></div>
+      <div>
+        <p>é seu primeiro acesso?</p>
+        <button type="button" id="registrar">registrar</button>
+      </div>
+    </form>
+  </body>
+</html>

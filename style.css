@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(img/luzes-proximas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+button:active {
+  opacity: 0.5;
+}
+button[enabled]{
+  opacity: 0.9;
+}
+button[disabled]{
+  opacity: 0.3;
+}
+button {
+  cursor: pointer;
+}
+input,
+button {
+  padding: 8pt;
+  margin-bottom: 9pt;
+  width: -webkit-fill-available;
+  border: none;
+}
+form {
+  background: rgb(13, 14, 13);
+  width: 50vw;
+  color: white;
+  padding: 10px 20px;
+}
+
+#senha {
+  margin-bottom: 0;
+}
+
+#esqeceuSenha {
+  background-color: transparent;
+  border: none;
+  color: blue;
+  text-decoration: underline wavy blue;
+}
+#entrar {
+  background: white;
+  border: none;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 1rem;
+}
+#registrar {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
