@@ -6,30 +6,27 @@
     <title>Login</title>
     <link rel="shortcut icon" href="img/sts1.jpeg" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
-    <script src="sts.js"></script>
+    <script src="sts.js" defer></script>
   </head>
   <body>
     <form>
       <div>
-        <div><label>e-mail de login</label></div>
-        <input
-          type="email"
-          placeholder="seu Email digite aqui"
-          id="email"
-          onchange="validaEmailSenha()"/>
+        <div><label for="email">e-mail de login</label></div>
+        <input type="email" placeholder="seu Email digite aqui" id="email" />
       </div>
       <div>
-        <div>senha</div>
+        <div><label for="senha">digite sua senha</label></div>
         <input
           type="password"
           name="senha"
           placeholder="sua Senha digite aqui"
           id="senha"
-          onchange="validaEmailSenha()"
         />
       </div>
       <div>
-        <button type="button" id="esqeceuSenha" disabled>esqueceu a senha</button>
+        <button type="button" id="esqeceuSenha" disabled>
+          esqueceu a senha
+        </button>
       </div>
       <div><button type="button" id="entrar">entrar</button></div>
       <div>

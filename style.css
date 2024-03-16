@@ -16,12 +16,8 @@ body {
 button:active {
   opacity: 0.5;
 }
-button[enabled]{
-  opacity: 0.9;
-}
-button[disabled]{
-  opacity: 0.3;
-}
+
+
 button {
   cursor: pointer;
 }
@@ -30,13 +26,20 @@ button {
   padding: 8pt;
   margin-bottom: 9pt;
   width: -webkit-fill-available;
-  border: none;
+  max-width: 400px;
+  border-bottom: yellow 2px solid;
+  border-right: yellow 2px solid;
+
 }
 form {
+  width: 80vw;
+  max-width: 500px;
   background: rgb(13, 14, 13);
   width: 50vw;
   color: white;
-  padding: 10px 20px;
+  padding: 20px 40px;
+  border: 4px solid yellow;
+  border-radius: 1rem;
 }
 
 #senha {
