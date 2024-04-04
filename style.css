@@ -5,9 +5,10 @@
 }
 
 body {
-  background-image: url(img/luzes-proximas.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url(img/integrantes/fernandinha.enc), url(img/sts1.jpeg), url(img/integrantes/LucasQuandt.enc), url(img/integrantes/JoaoPedro.enc), url(img/placa-de-circuito.png);
+  background-position: right, top, bottom, left, bottom;
+  background-repeat: repeat-y, repeat-x, repeat-x, repeat-y, repeat-x;
+  background-size: 8%, 5%, 5%, 8%, cover;
   display: flex;
   justify-content: center;
   align-items: center;

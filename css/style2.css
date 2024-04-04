@@ -1,0 +1,35 @@
+html{
+    height: 96vh;
+    background-color: rgb(19, 18, 18);
+}
+body{
+    background: rgba(84, 198, 198);
+    height: 50%;
+    width: 30%;
+    border-radius: 20px;
+}
+.centralizar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sentido{
+    
+flex-direction: column;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+    /* height: 50%; */
+    border: 3px solid yellow;
+    border-radius: 5px;
+    padding: 15pt;
+}
+
+input, button{
+    width: -webkit-fill-available;
+    padding: 10px;
+}
