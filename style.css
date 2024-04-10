@@ -17,6 +17,14 @@ body {
 button:active {
   opacity: 0.5;
 }
+.centro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  height: 70vh;
+}
 
 
 button {
@@ -33,10 +41,10 @@ button {
 
 }
 form {
-  width: 80vw;
+  /* width: 80vw; */
   max-width: 500px;
   background: rgb(13, 14, 13);
-  width: 50vw;
+  width: 80vw;
   color: white;
   padding: 20px 40px;
   border: 4px solid yellow;
@@ -50,7 +58,7 @@ form {
 #esqeceuSenha {
   background-color: transparent;
   border: none;
-  color: blue;
+  color: yellow;
   text-decoration: underline wavy blue;
 }
 #entrar {
