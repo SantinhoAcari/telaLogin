@@ -41,8 +41,8 @@ button {
 
 }
 form {
-  /* width: 80vw; */
   max-width: 500px;
+  max-height: 70vh;
   background: rgb(13, 14, 13);
   width: 80vw;
   color: white;
